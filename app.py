@@ -1,8 +1,6 @@
 from flask import Flask, jsonify, request
 import pandas as pd
-import statsmodels.formula.api as smf
-import numpy as np
-import pickle  # For model persistence
+import pickle
 
 app = Flask(__name__)
 

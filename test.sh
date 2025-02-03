@@ -24,7 +24,7 @@ url="http://127.0.0.1:5000/rates_by_state"
 
 response=$(curl "$url")
 
-echo "Total Rates by State:"
-echo "$response" | grep -E 'state|total_rate'
+echo "$response"
+
 
 
